@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAD0261D13DEE171006C4A2E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD0261C13DEE171006C4A2E /* UIKit.framework */; };
+		FAD0261F13DEE171006C4A2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD0261E13DEE171006C4A2E /* Foundation.framework */; };
+		FAD0262113DEE171006C4A2E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD0262013DEE171006C4A2E /* CoreGraphics.framework */; };
+		FAD0262713DEE171006C4A2E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAD0262513DEE171006C4A2E /* InfoPlist.strings */; };
+		FAD0262A13DEE171006C4A2E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD0262913DEE171006C4A2E /* main.m */; };
+		FAD0262D13DEE171006C4A2E /* CountdownAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD0262C13DEE171006C4A2E /* CountdownAppDelegate.m */; };
+		FAD0263013DEE171006C4A2E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD0262E13DEE171006C4A2E /* MainWindow.xib */; };
+		FAD0263313DEE171006C4A2E /* CountdownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD0263213DEE171006C4A2E /* CountdownViewController.m */; };
+		FAD0263613DEE171006C4A2E /* CountdownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAD0263413DEE171006C4A2E /* CountdownViewController.xib */; };
+		FAF03B1213DF0D57008F123F /* README in Resources */ = {isa = PBXBuildFile; fileRef = FAF03B1113DF0D57008F123F /* README */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAD0261813DEE171006C4A2E /* Countdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Countdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAD0261C13DEE171006C4A2E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAD0261E13DEE171006C4A2E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAD0262013DEE171006C4A2E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAD0262413DEE171006C4A2E /* Countdown-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Countdown-Info.plist"; sourceTree = "<group>"; };
+		FAD0262613DEE171006C4A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAD0262813DEE171006C4A2E /* Countdown-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Countdown-Prefix.pch"; sourceTree = "<group>"; };
+		FAD0262913DEE171006C4A2E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAD0262B13DEE171006C4A2E /* CountdownAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountdownAppDelegate.h; sourceTree = "<group>"; };
+		FAD0262C13DEE171006C4A2E /* CountdownAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountdownAppDelegate.m; sourceTree = "<group>"; };
+		FAD0262F13DEE171006C4A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		FAD0263113DEE171006C4A2E /* CountdownViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CountdownViewController.h; sourceTree = "<group>"; };
+		FAD0263213DEE171006C4A2E /* CountdownViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountdownViewController.m; sourceTree = "<group>"; };
+		FAD0263513DEE171006C4A2E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CountdownViewController.xib; sourceTree = "<group>"; };
+		FAF03B1113DF0D57008F123F /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAD0261513DEE170006C4A2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD0261D13DEE171006C4A2E /* UIKit.framework in Frameworks */,
+				FAD0261F13DEE171006C4A2E /* Foundation.framework in Frameworks */,
+				FAD0262113DEE171006C4A2E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAD0260D13DEE170006C4A2E = {
+			isa = PBXGroup;
+			children = (
+				FAD0262213DEE171006C4A2E /* Countdown */,
+				FAD0261B13DEE171006C4A2E /* Frameworks */,
+				FAD0261913DEE171006C4A2E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAD0261913DEE171006C4A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0261813DEE171006C4A2E /* Countdown.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAD0261B13DEE171006C4A2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0261C13DEE171006C4A2E /* UIKit.framework */,
+				FAD0261E13DEE171006C4A2E /* Foundation.framework */,
+				FAD0262013DEE171006C4A2E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAD0262213DEE171006C4A2E /* Countdown */ = {
+			isa = PBXGroup;
+			children = (
+				FAF03B1113DF0D57008F123F /* README */,
+				FAD0262B13DEE171006C4A2E /* CountdownAppDelegate.h */,
+				FAD0262C13DEE171006C4A2E /* CountdownAppDelegate.m */,
+				FAD0262E13DEE171006C4A2E /* MainWindow.xib */,
+				FAD0263113DEE171006C4A2E /* CountdownViewController.h */,
+				FAD0263213DEE171006C4A2E /* CountdownViewController.m */,
+				FAD0263413DEE171006C4A2E /* CountdownViewController.xib */,
+				FAD0262313DEE171006C4A2E /* Supporting Files */,
+			);
+			path = Countdown;
+			sourceTree = "<group>";
+		};
+		FAD0262313DEE171006C4A2E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAD0262413DEE171006C4A2E /* Countdown-Info.plist */,
+				FAD0262513DEE171006C4A2E /* InfoPlist.strings */,
+				FAD0262813DEE171006C4A2E /* Countdown-Prefix.pch */,
+				FAD0262913DEE171006C4A2E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAD0261713DEE170006C4A2E /* Countdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAD0263913DEE171006C4A2E /* Build configuration list for PBXNativeTarget "Countdown" */;
+			buildPhases = (
+				FAD0261413DEE170006C4A2E /* Sources */,
+				FAD0261513DEE170006C4A2E /* Frameworks */,
+				FAD0261613DEE170006C4A2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Countdown;
+			productName = Countdown;
+			productReference = FAD0261813DEE171006C4A2E /* Countdown.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAD0260F13DEE170006C4A2E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Illogical Development";
+			};
+			buildConfigurationList = FAD0261213DEE170006C4A2E /* Build configuration list for PBXProject "Countdown" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAD0260D13DEE170006C4A2E;
+			productRefGroup = FAD0261913DEE171006C4A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAD0261713DEE170006C4A2E /* Countdown */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAD0261613DEE170006C4A2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD0262713DEE171006C4A2E /* InfoPlist.strings in Resources */,
+				FAD0263013DEE171006C4A2E /* MainWindow.xib in Resources */,
+				FAD0263613DEE171006C4A2E /* CountdownViewController.xib in Resources */,
+				FAF03B1213DF0D57008F123F /* README in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD0261413DEE170006C4A2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAD0262A13DEE171006C4A2E /* main.m in Sources */,
+				FAD0262D13DEE171006C4A2E /* CountdownAppDelegate.m in Sources */,
+				FAD0263313DEE171006C4A2E /* CountdownViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAD0262513DEE171006C4A2E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD0262613DEE171006C4A2E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAD0262E13DEE171006C4A2E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD0262F13DEE171006C4A2E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		FAD0263413DEE171006C4A2E /* CountdownViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAD0263513DEE171006C4A2E /* en */,
+			);
+			name = CountdownViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAD0263713DEE171006C4A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAD0263813DEE171006C4A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		FAD0263A13DEE171006C4A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Countdown/Countdown-Prefix.pch";
+				INFOPLIST_FILE = "Countdown/Countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAD0263B13DEE171006C4A2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Countdown/Countdown-Prefix.pch";
+				INFOPLIST_FILE = "Countdown/Countdown-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAD0261213DEE170006C4A2E /* Build configuration list for PBXProject "Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD0263713DEE171006C4A2E /* Debug */,
+				FAD0263813DEE171006C4A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAD0263913DEE171006C4A2E /* Build configuration list for PBXNativeTarget "Countdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAD0263A13DEE171006C4A2E /* Debug */,
+				FAD0263B13DEE171006C4A2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAD0260F13DEE170006C4A2E /* Project object */;
+}
